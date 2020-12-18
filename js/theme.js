@@ -2064,6 +2064,7 @@ window.theme.fn = {
 		gridheight: 500,
 		spinner: 'spinner3',
 		disableProgressBar: 'on',
+		infinite: true,
 		parallax: {
 			type: 'off',
 			bgparallax: 'off'
