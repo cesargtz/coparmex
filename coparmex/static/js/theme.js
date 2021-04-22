@@ -2658,8 +2658,8 @@ window.theme.fn = {
 		targetClass: '.section',
 		dotsNav: true,
 		changeHeaderLogo: true,
-		headerLogoDark: 'img/logo-default-slim.png',
-		headerLogoLight: 'img/logo-default-slim-dark.png'
+		headerLogoDark: 'images/logo-default-slim.png',
+		headerLogoLight: 'images/logo-default-slim-dark.png'
 	};
 
 	PluginSectionScroll.prototype = {

@@ -30,7 +30,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 		productViewer.prototype.loadFrames = function() {
 			var self = this,
 				imageUrl = this.slideShow.data('image'),
-				newImg = $('<img/>');
+				newImg = $('<images/>');
 
 			this.loading('0.5');
 			newImg.attr('src', imageUrl).load(imageUrl, function() {

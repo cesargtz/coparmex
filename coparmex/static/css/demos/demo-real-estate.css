@@ -273,7 +273,7 @@
 .agents {
   margin-bottom: 30px;
   position: relative;
-  background: url("../../img/demos/real-estate/agents/agent-bg-blue.jpg");
+  background: url("../../images/demos/real-estate/agents/agent-bg-blue.jpg");
   background-size: cover;
 }
 .agents:before {
