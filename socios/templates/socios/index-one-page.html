@@ -16,8 +16,8 @@
 	<meta name="author" content="domain.mx">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %}">
 
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -28,34 +28,34 @@
 		rel="stylesheet" type="text/css">
 
 	<!-- Vendor CSS -->
-	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
-	<link rel="stylesheet" href="vendor/animate/animate.min.css">
-	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
-	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+	<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/fontawesome-free/css/all.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/animate/animate.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/simple-line-icons/css/simple-line-icons.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/owl.carousel/assets/owl.theme.default.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/magnific-popup/magnific-popup.min.css' %}">
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" href="css/theme.css">
-	<link rel="stylesheet" href="css/theme-elements.css">
-	<link rel="stylesheet" href="css/theme-blog.css">
-	<link rel="stylesheet" href="css/theme-shop.css">
+	<link rel="stylesheet" href="{% static 'css/theme.css' %}">
+	<link rel="stylesheet" href="{% static 'css/theme-elements.css' %}">
+	<link rel="stylesheet" href="{% static 'css/theme-blog.css' %}">
+	<link rel="stylesheet" href="{% static 'css/theme-shop.css' %}">
 
 	<!-- Current Page CSS -->
-	<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-	<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-	<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+	<link rel="stylesheet" href="{% static 'vendor/rs-plugin/css/settings.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/rs-plugin/css/layers.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/rs-plugin/css/navigation.css' %}">
 
 	<!-- Demo CSS -->
 
 
 	<!-- Skin CSS -->
-	<link rel="stylesheet" href="css/skins/default.css">
+	<link rel="stylesheet" href="{% static 'css/skins/default.css' %}">
 	<script src="{% static 'master/style-switcher/style.switcher.localstorage.js' %}"></script>
 
 	<!-- Theme Custom CSS -->
-	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="{% static 'css/custom.css' %}">
 
 	<!-- Head Libs -->
 	<script src="{% static 'vendor/modernizr/modernizr.min.js' %}"></script>
@@ -85,7 +85,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a>
-											<img alt="Porto" width="82" height="40" src="images/logo-white.png">
+											<img alt="Porto" width="82" height="40" src="{% static 'images/logo-white.png' %}">
 										</a>
 									</div>
 								</div>
@@ -150,7 +150,7 @@
 						data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500]}">
 						<ul>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="images/slides/slide-one-page-1-1.jpg" alt="" data-bgposition="center center"
+								<img src="{% static 'images/slides/slide-one-page-1-1.jpg' %}" alt="" data-bgposition="center center"
 									data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
 								<div class="tp-caption tp-resizeme"
@@ -158,34 +158,34 @@
 									data-type="image" data-x="left" data-hoffset="['0','-150','-200','-200']"
 									data-y="top" data-voffset="['-100','-150','-200','-200']" data-width="['auto']"
 									data-height="['auto']" data-basealign="slide"><img
-										src="images/slides/slide-one-page-1-2.jpg" alt=""></div>
+										src="{% static 'images/slides/slide-one-page-1-2.jpg' %}" alt=""></div>
 
 								<div class="tp-caption tp-resizeme"
 									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;y:-100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-type="image" data-x="right" data-hoffset="['0','-150','-200','-200']"
 									data-y="top" data-voffset="['-100','-150','-200','-200']" data-width="['auto']"
 									data-height="['auto']" data-basealign="slide"><img
-										src="images/slides/slide-one-page-1-3.jpg" alt=""></div>
+										src="{% static 'images/slides/slide-one-page-1-3.jpg' %}" alt=""></div>
 
 								<div class="tp-caption tp-resizeme"
 									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:-100%;y:100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-type="image" data-x="left" data-hoffset="['0','-150','-200','-200']"
 									data-y="bottom" data-voffset="['-100','-150','-200','-200']" data-width="['auto']"
 									data-height="['auto']" data-basealign="slide"><img
-										src="images/slides/slide-one-page-1-4.jpg" alt=""></div>
+										src="{% static 'images/slides/slide-one-page-1-4.jpg' %}" alt=""></div>
 
 								<div class="tp-caption tp-resizeme"
 									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;y:100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-type="image" data-x="right" data-hoffset="['0','-150','-200','-200']"
 									data-y="bottom" data-voffset="['-100','-150','-200','-200']" data-width="['auto']"
 									data-height="['auto']" data-basealign="slide"><img
-										src="images/slides/slide-one-page-1-5.jpg" alt=""></div>
+										src="{% static 'images/slides/slide-one-page-1-5.jpg' %}" alt=""></div>
 
 								<div class="tp-caption" data-x="center" data-hoffset="['-170','-170','-170','-365']"
 									data-y="center" data-voffset="['-80','-80','-80','-105']" data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png' %}" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal" data-x="center"
 									data-y="center" data-voffset="['-80','-80','-80','-105']" data-start="700"
@@ -197,7 +197,7 @@
 									data-y="center" data-voffset="['-80','-80','-80','-105']" data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png' %}" alt=""></div>
 
 								<h1 class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -208,7 +208,7 @@
 								<div class="tp-caption"
 									data-frames='[{"delay":2000,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['-40','-40','-40','-40']" data-y="center"
-									data-voffset="['2','2','2','15']"><img src="images/slides/slide-blue-line-big.png"
+									data-voffset="['2','2','2','15']"><img src="{% static 'images/slides/slide-blue-line-big.png' %}"
 										alt=""></div>
 
 								<div class="tp-caption font-weight-light ws-normal text-center"
@@ -230,14 +230,14 @@
 
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="images/slides/slide-bg-2.jpg" alt="" data-bgposition="center center"
+								<img src="{% static 'images/slides/slide-bg-2.jpg' %}" alt="" data-bgposition="center center"
 									data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
 								<div class="tp-caption" data-x="center" data-hoffset="['-170','-170','-170','-350']"
 									data-y="center" data-voffset="['-50','-50','-50','-75']" data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png' %}" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal" data-x="center"
 									data-y="center" data-voffset="['-50','-50','-50','-75']" data-start="700"
@@ -248,7 +248,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']" data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png' %}" alt=""></div>
 
 								<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -265,14 +265,14 @@
 
 							</li>
 							<li class="slide-overlay slide-overlay-dark" data-transition="fade">
-								<img src="images/slides/slide-bg-6.jpg" alt="" data-bgposition="center center"
+								<img src="{% static 'images/slides/slide-bg-6.jpg' %}" alt="" data-bgposition="center center"
 									data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
 								<div class="tp-caption" data-x="center" data-hoffset="['-145','-145','-145','-320']"
 									data-y="center" data-voffset="['-80','-80','-80','-130']" data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png' %}" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal" data-x="center"
 									data-y="center" data-voffset="['-80','-80','-80','-130']" data-start="700"
@@ -283,7 +283,7 @@
 									data-y="center" data-voffset="['-80','-80','-80','-130']" data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png ' %}" alt=""></div>
 
 								<div class="tp-caption font-weight-extra-bold text-color-light"
 									data-frames='[{"delay":1300,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -322,11 +322,11 @@
 
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="images/blank.gif" alt="" data-bgposition="center center" data-bgfit="cover"
+								<img src="{% static 'images/blank.gif'%}" alt="" data-bgposition="center center" data-bgfit="cover"
 									data-bgrepeat="no-repeat" class="rev-slidebg">
 
 								<div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute"
-									data-videowidth="100%" data-videoheight="100%" data-videomp4="video/sample.mp4"
+									data-videowidth="100%" data-videoheight="100%" data-videomp4="{% static 'video/sample.mp4' %}"
 									data-videopreload="preload" data-videoloop="loop" data-forceCover="1"
 									data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false"
 									data-nextslideatend="false">
@@ -336,7 +336,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']" data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;" style="z-index: 5;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png' %}" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal" data-x="center"
 									data-y="center" data-voffset="['-50','-50','-50','-75']" data-start="700"
@@ -348,7 +348,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']" data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;" style="z-index: 5;"><img
-										src="images/slides/slide-title-border.png" alt=""></div>
+										src="{% static 'images/slides/slide-title-border.png'}" alt=""></div>
 
 								<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -385,7 +385,7 @@
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
 											<!-- <i hre></i> -->
-											<img class="icons-svg" src="images/icons/community.svg">
+											<img class="icons-svg" src="{% static 'images/icons/community.svg' %}">
 											<!-- <img class="icons icon-heart text-color-primary"></img> -->
 										</div>
 										<div class="feature-box-info">
@@ -397,7 +397,7 @@
 									</div>
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<img class="icons-svg-big" src="images/icons/honesty.svg">
+											<img class="icons-svg-big" src="{% static 'images/icons/honesty.svg' %}">
 										</div>
 										<div class="feature-box-info">
 											<h4 class="font-weight-bold text-4 mb-0">Respeto a la dignidad de la persona
@@ -408,7 +408,7 @@
 									</div>
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<img class="icons-svg" src="images/icons/libertad.svg">
+											<img class="icons-svg" src="{% static 'images/icons/libertad.svg' %}">
 										</div>
 										<div class="feature-box-info">
 											<h4 class="font-weight-bold text-4 mb-0">Libertad con responsabilidad</h4>
@@ -418,7 +418,7 @@
 									</div>
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<img class="icons-svg" src="images/icons/subasta.svg">
+											<img class="icons-svg" src="{% static 'images/icons/subasta.svg' %}">
 										</div>
 										<div class="feature-box-info">
 											<h4 class="font-weight-bold text-4 mb-0">Justicia</h4>
@@ -430,7 +430,7 @@
 								<div class="col-sm-6">
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<img class="icons-svg" src="images/icons/mundo.svg">
+											<img class="icons-svg" src="{% static 'images/icons/mundo.svg' %}">
 										</div>
 										<div class="feature-box-info">
 											<h4 class="font-weight-bold text-4 mb-0">Paz social</h4>
@@ -441,7 +441,7 @@
 									</div>
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<img class="icons-svg" src="images/icons/network.svg">
+											<img class="icons-svg" src="{% static 'images/icons/network.svg' %}">
 										</div>
 										<div class="feature-box-info">
 											<h4 class="font-weight-bold text-4 mb-0">Participación ciudadana</h4>
@@ -451,7 +451,7 @@
 									</div>
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<img class="icons-svg" src="images/icons/apoyo.svg">
+											<img class="icons-svg" src="{% static 'images/icons/apoyo.svg' %}">
 										</div>
 										<div class="feature-box-info">
 											<h4 class="font-weight-bold text-4 mb-0">Subsidiariedad</h4>
@@ -461,7 +461,7 @@
 									</div>
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<img class="icons-svg" src="images/icons/comunidad.svg">
+											<img class="icons-svg" src="{% static 'images/icons/comunidad.svg' %}">
 										</div>
 										<div class="feature-box-info">
 											<h4 class="font-weight-bold text-4 mb-0">Solidaridad</h4>
@@ -482,7 +482,7 @@
 										<h4 class="card-title m-0">
 											<a id="actionCollapseOne" class="accordion-toggle text-color-dark font-weight-bold"
 												data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-												<img class="icons-svg" src="images/icons/megafono.svg">
+												<img class="icons-svg" src="{% static 'images/icons/megafono.svg' %}">
 												¿Qué hacemos?
 											</a>
 										</h4>
@@ -501,7 +501,7 @@
 										<h4 class="card-title m-0">
 											<a id="actionCollapseTwo" class="accordion-toggle text-color-dark font-weight-bold"
 												data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-												<img class="icons-svg" src="images/icons/mision.svg">
+												<img class="icons-svg" src="{% static 'images/icons/mision.svg' %}">
 												Misión
 											</a>
 										</h4>
@@ -519,7 +519,7 @@
 										<h4 class="card-title m-0">
 											<a id="actionCollapseThree" class="accordion-toggle text-color-dark font-weight-bold"
 												data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-												<img class="icons-svg" src="images/icons/vision.svg">
+												<img class="icons-svg" src="{% static 'images/icons/vision.svg' %}">
 												Visión
 											</a>
 										</h4>
@@ -674,7 +674,7 @@
 										En COPARMEX todos los empresarios son bienvenidos.</p>
 								</div>
 								<div class="col-md-4 px-5 px-md-3">
-									<img class="img-fluid scale-3 my-4" src="images/coffe.png" alt="style switcher" />
+									<img class="img-fluid scale-3 my-4" src="{% static 'images/coffe.png' %}" alt="style switcher" />
 								</div>
 							</div>
 						</div>
@@ -760,7 +760,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/luis.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/luis.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Presidente</span>
 												<span class="thumb-info-type">Luis Manuel Pineda Santos</span>
@@ -778,7 +778,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/juan.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/juan.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Vicepresidente</span>
 												<span class="thumb-info-type">Juan Carlos Trujano Trevizo</span>
@@ -796,7 +796,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/Graciela.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/Graciela.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Vicepresidenta</span>
 												<span class="thumb-info-type">Graciela Martinez Licon</span>
@@ -813,7 +813,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/ricardo.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/ricardo.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Secretario</span>
 												<span class="thumb-info-type">Ricardo Urby Hérnandez</span>
@@ -892,7 +892,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/jaime.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/jaime.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Tesorero</span>
 												<span class="thumb-info-type">Jaime Luis Goméz Sandoval</span>
@@ -910,7 +910,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/david.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/david.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Comisario</span>
 												<span class="thumb-info-type">David Acosta Rivas</span>
@@ -928,7 +928,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/Sonia.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/Sonia.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Sonia Palacios Loya</span>
@@ -946,7 +946,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/olivia.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/olivia.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Olivia Marioni Nájera</span>
@@ -964,7 +964,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/alejandra.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/alejandra.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Alejandra Cuesta Crosby</span>
@@ -982,7 +982,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/ana.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/ana.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Ana Terrazas Cerros</span>
@@ -1000,7 +1000,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/jorge.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/jorge.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejero</span>
 												<span class="thumb-info-type">Jorge Hermosillo Trujillo</span>
@@ -1018,7 +1018,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/eva.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/eva.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Eva Heide Enns</span>
@@ -1036,7 +1036,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/jessica.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/jessica.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Jessica Avila Rico</span>
@@ -1056,7 +1056,7 @@
 
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/Rebeca.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/Rebeca.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Rebeca Flores Barba</span>
@@ -1074,7 +1074,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/benjamin.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/benjamin.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejero</span>
 												<span class="thumb-info-type">Roberto del Castillo</span>
@@ -1093,7 +1093,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/tere.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/tere.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Teresita de Jesús Avila</span>
@@ -1111,7 +1111,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/victor.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/victor.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejero</span>
 												<span class="thumb-info-type">Victor Emilio Anchondo</span>
@@ -1129,7 +1129,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/everardo.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/everardo.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejero</span>
 												<span class="thumb-info-type">Everardo Avila Castillo</span>
@@ -1147,7 +1147,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/ricardom.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/ricardom.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejero</span>
 												<span class="thumb-info-type">Ricardo Morales Guerra</span>
@@ -1165,7 +1165,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/rene.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/rene.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Renee Corina Bencomo Baray</span>
@@ -1183,7 +1183,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="images/team/zitlalli.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'images/team/zitlalli.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Zitlalli Rivas Dominguez</span>
@@ -1358,7 +1358,7 @@
 		<script src="{% static 'vendor/jquery.appear/jquery.appear.min.js' %}"></script>
 		<script src="{% static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
 		<script src="{% static 'vendor/jquery.cookie/jquery.cookie.min.js' %}"></script>
-		<script src="master/style-switcher/style.switcher.js" id="styleSwitcherScript" data-base-path=""
+		<script src="{% static 'master/style-switcher/style.switcher.js' %}" id="styleSwitcherScript" data-base-path=""
 			data-skin-src=""></script>
 		<script src="{% static 'vendor/popper/umd/popper.min.js' %}"></script>
 		<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
@@ -1380,13 +1380,13 @@
 		<script src="{% static 'js/theme.js' %}"></script>
 
 		<!-- Current Page Vendor and Views -->
-		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-		<script src="js/views/view.contact.js"></script>
+		<script src="{% static 'vendor/rs-plugin/js/jquery.themepunch.tools.min.js' %}"></script>
+		<script src="{% static 'vendor/rs-plugin/js/jquery.themepunch.revolution.min.js' %}"></script>
+		<script src="{% static 'js/views/view.contact.js' %}"></script>
 
 
 		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
+		<script src="{% static 'js/theme.init.js' %}"></script>
 
 		<!-- mail -->
 
@@ -1403,7 +1403,7 @@
 			ga('create', 'UA-42715764-5', 'auto');
 			ga('send', 'pageview');
 		</script> -->
-		<script src="js/examples/examples.portfolio.js"></script>
+		<script src="{% static 'js/examples/examples.portfolio.js' %}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARWsGhcl7OZmKhnPxwLR9h0__-FK5nMkc"></script>
 		<script>
 			/*
@@ -1421,7 +1421,7 @@
 				address: "La COPARMEX Cuautemoc es un organismo empresarial muy solido que agrupa a las pr, Periferico Manuel Gómez Morin y entronque a Anahuac #315, 31540 Cuauhtémoc, Chih.",
 				html: "<strong>New York Office</strong><br>New York, NY 10017<br><br><a href='#' onclick='mapCenterAt({latitude: 28.444659398372806, longitude: -106.81478416378388, zoom: 16}, event)'>[+] zoom here</a>",
 				icon: {
-					image: "images/pin.png",
+					image: "{% static 'images/pin.png' %}",
 					iconsize: [26, 46],
 					iconanchor: [12, 46]
 				}
