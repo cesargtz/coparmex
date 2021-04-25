@@ -720,7 +720,7 @@ Theme Version:	8.0.0
 
 /* Arrows */
 .arrow {
-	background: transparent url(../images/arrows.png) no-repeat 0 0;
+	background: transparent url(../img/arrows.png) no-repeat 0 0;
 	width: 47px;
 	height: 120px;
 	display: inline-block;
@@ -728,7 +728,7 @@ Theme Version:	8.0.0
 }
 
 .arrow.arrow-light {
-	background-image: url(../images/arrows-dark.png);
+	background-image: url(../img/arrows-dark.png);
 }
 
 .arrow.vtl {
@@ -3704,7 +3704,7 @@ hr.pattern, .divider.pattern {
 }
 
 hr.pattern:after, .divider.pattern:after {
-	background: transparent url(../images/patterns/worn_dots.png) repeat 0 0;
+	background: transparent url(../img/patterns/worn_dots.png) repeat 0 0;
 	content: "";
 	display: block;
 	height: 15px;
@@ -3715,7 +3715,7 @@ hr.pattern:after, .divider.pattern:after {
 }
 
 hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
-	background-image: url(../images/patterns/az_subtle.png);
+	background-image: url(../img/patterns/az_subtle.png);
 }
 
 @-webkit-keyframes dividerProgress25 {
@@ -4617,7 +4617,7 @@ html.ie .feature-box .feature-box-info {
 .flag {
 	width: 16px;
 	height: 11px;
-	background: url(../images/flags.png) no-repeat;
+	background: url(../img/flags.png) no-repeat;
 }
 
 .flag.flag-ad {
@@ -6460,7 +6460,7 @@ i.pi.pi-close:after {
 /* Custom Image Icons */
 .icon-bg {
 	display: inline-block;
-	background: url(../images/icons/icons.png) no-repeat;
+	background: url(../img/icons/icons.png) no-repeat;
 	width: 80px;
 	height: 80px;
 }
@@ -6844,7 +6844,7 @@ ul.thumbnail-gallery li {
 
 /* Lazy */
 .lazy-bg {
-	background-image: url(../../../../../www.portotheme.com/html/porto/8.0.0/css/images/lazy.html);
+	background-image: url(../../../../../www.portotheme.com/html/porto/8.0.0/css/img/lazy.html);
 }
 
 /* Arrows */
@@ -8544,7 +8544,7 @@ html[xmlns] .clearfix {
 	position: absolute;
 	right: calc(100% - 74px);
 	bottom: -6px;
-	background: url(../images/pencil-blue-line.png);
+	background: url(../img/pencil-blue-line.png);
 	width: 0;
 	height: 15px;
 	-webkit-animation-name: pencilAnimation;
@@ -8565,7 +8565,7 @@ html[xmlns] .clearfix {
 }
 
 .highlighted-word.highlighted-word-animation-1.highlighted-word-animation-1-dark:after {
-	background: url(../images/pencil-blue-line-dark.png);
+	background: url(../img/pencil-blue-line-dark.png);
 }
 
 .highlighted-word.highlighted-word-animation-1.highlighted-word-animation-1-no-rotate:after {
@@ -8576,12 +8576,12 @@ html[xmlns] .clearfix {
 	-webkit-animation-name: pencilAnimation2;
 	animation-name: pencilAnimation2;
 	right: calc(100% - 115px);
-	background: url(../images/pencil-blue-line-2.png);
+	background: url(../img/pencil-blue-line-2.png);
 	background-repeat: no-repeat;
 }
 
 .highlighted-word.highlighted-word-animation-1.highlighted-word-animation-1-2-dark:after {
-	background-image: url(../images/pencil-blue-line-2-dark.png);
+	background-image: url(../img/pencil-blue-line-2-dark.png);
 }
 
 .highlighted-word.highlighted-word-rotate {
@@ -8597,7 +8597,7 @@ html[xmlns] .clearfix {
 
 .curved-border:after {
 	content: '';
-	background-image: url(../images/curved-border.svg);
+	background-image: url(../img/curved-border.svg);
 	background-size: 100% 100%;
 	background-position: center;
 	position: absolute;
@@ -10272,7 +10272,7 @@ section.section.section-overlay .section-angled-layer-bottom {
 }
 
 section.section.section-overlay-dot:before {
-	background: url(../images/overlay-dot.png) repeat scroll 0 0 transparent;
+	background: url(../img/overlay-dot.png) repeat scroll 0 0 transparent;
 }
 
 section.section.section-overlay-opacity {
@@ -14692,7 +14692,7 @@ html.boxed section.video > div:first-child video {
 }
 /* Custom Map */
 section.section-custom-map {
-	background: transparent url(../images/map.png) center 0 no-repeat;
+	background: transparent url(../img/map.png) center 0 no-repeat;
 	padding: 129px 0 0;
 	margin: 20px 0 0;
 	border: 0;
@@ -14987,7 +14987,7 @@ section.section-custom-map section.section {
 }
 /* Home Concept */
 .home-concept {
-	background: transparent url(../images/home/home-concept-rtl.png) no-repeat center 0;
+	background: transparent url(../img/home/home-concept-rtl.png) no-repeat center 0;
 	width: 100%;
 	overflow: hidden;
 }
@@ -15006,7 +15006,7 @@ section.section-custom-map section.section {
 }
 
 .home-concept .process-image {
-	background: transparent url(../images/home/home-concept-item.png) no-repeat 0 0;
+	background: transparent url(../img/home/home-concept-item.png) no-repeat 0 0;
 	width: 160px;
 	margin: 120px auto 0 auto;
 	padding-bottom: 50px;
@@ -15035,7 +15035,7 @@ section.section-custom-map section.section {
 }
 
 .home-concept .project-image {
-	background: transparent url(../images/home/home-concept-item.png) no-repeat 100% 0;
+	background: transparent url(../img/home/home-concept-item.png) no-repeat 100% 0;
 	width: 350px;
 	margin: 20px -30px 0 0;
 	padding-bottom: 45px;
@@ -15044,7 +15044,7 @@ section.section-custom-map section.section {
 }
 
 .home-concept .sun {
-	background: transparent url(../images/home/home-concept-icons.png) no-repeat 0 0;
+	background: transparent url(../img/home/home-concept-icons.png) no-repeat 0 0;
 	width: 60px;
 	height: 56px;
 	display: block;
@@ -15054,7 +15054,7 @@ section.section-custom-map section.section {
 }
 
 .home-concept .cloud {
-	background: transparent url(../images/home/home-concept-icons.png) no-repeat 100% 0;
+	background: transparent url(../img/home/home-concept-icons.png) no-repeat 100% 0;
 	width: 116px;
 	height: 56px;
 	display: block;

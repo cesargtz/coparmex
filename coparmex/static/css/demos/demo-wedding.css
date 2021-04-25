@@ -44,7 +44,7 @@
 }
 
 .custom-overlay-1:before {
-  background: url(../../images/demos/wedding/custom-overlay-1.png) repeat scroll 0 0 transparent !important;
+  background: url(../../img/demos/wedding/custom-overlay-1.png) repeat scroll 0 0 transparent !important;
   z-index: -4;
 }
 
@@ -157,7 +157,7 @@
   left: 0;
   bottom: 0;
   height: 16px;
-  background: url(../../images/demos/wedding/slider-border-bg.png);
+  background: url(../../img/demos/wedding/slider-border-bg.png);
   background-repeat: repeat-x;
   z-index: 30;
 }
@@ -169,7 +169,7 @@
 }
 .testimonial.testimonial-with-quotes.custom-wedding-quotes blockquote:before {
   content: '';
-  background: url(../../images/demos/wedding/testimonial/custom-red-quotes.png);
+  background: url(../../img/demos/wedding/testimonial/custom-red-quotes.png);
   background-size: 100% 100%;
   width: 36px;
   height: 22px;
@@ -178,7 +178,7 @@
 }
 .testimonial.testimonial-with-quotes.custom-wedding-quotes blockquote:after {
   content: '';
-  background: url(../../images/demos/wedding/testimonial/custom-red-quotes.png);
+  background: url(../../img/demos/wedding/testimonial/custom-red-quotes.png);
   background-size: 100% 100%;
   width: 36px;
   height: 22px;
@@ -203,7 +203,7 @@
 .thumb-bride-groom .bride-groom-bg:before {
   content: '';
   display: block;
-  background: url(../../images/demos/wedding/bride-groom/bride-bg.jpg);
+  background: url(../../img/demos/wedding/bride-groom/bride-bg.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -215,7 +215,7 @@
   transform: translate3d(-50%, -50%, 0);
 }
 .thumb-bride-groom .bride-groom-bg.groom-background-style:before {
-  background: url(../../images/demos/wedding/bride-groom/groom-bg.jpg);
+  background: url(../../img/demos/wedding/bride-groom/groom-bg.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   top: 50%;
@@ -315,7 +315,7 @@
 .wedding-schedule:before {
   content: '';
   display: block;
-  background: url(../../images/demos/wedding/the-wedding/the-wedding-bg-colors.png);
+  background: url(../../img/demos/wedding/the-wedding/the-wedding-bg-colors.png);
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -340,7 +340,7 @@
 }
 .wedding-schedule .wedding-schedule-background {
   position: absolute;
-  background: url(../../images/demos/wedding/the-wedding/the-wedding-bg-1.png);
+  background: url(../../img/demos/wedding/the-wedding/the-wedding-bg-1.png);
   background-size: 100% 100%;
   width: 98%;
   height: 99%;
@@ -414,7 +414,7 @@
   content: '';
   display: block;
   position: absolute;
-  background: url(../../images/demos/wedding/guestbook/guestbook-flower.png);
+  background: url(../../img/demos/wedding/guestbook/guestbook-flower.png);
   background-size: 100%;
   background-repeat: no-repeat;
   width: 17%;

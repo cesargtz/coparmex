@@ -144,7 +144,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   }
 
   .home-concept-construction {
-    background: transparent url(../../images/home/home-concept-small.png) no-repeat center 63%;
+    background: transparent url(../../img/home/home-concept-small.png) no-repeat center 63%;
   }
 }
 .diamonds {
@@ -414,7 +414,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 }
 
 #footer {
-  background: #E9EFF2 url(../../images/demos/construction/footer-construction.jpg) no-repeat 50% 50%;
+  background: #E9EFF2 url(../../img/demos/construction/footer-construction.jpg) no-repeat 50% 50%;
   border-top: 0;
   padding: 60px 0 30px;
   min-height: 400px;
