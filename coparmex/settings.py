@@ -39,6 +39,7 @@ ALLOWED_HOSTS = ['192.168.0.106', '127.0.0.1', '192.168.0.109']
 # Application definition
 
 INSTALLED_APPS = [
+    'clearcache',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -131,11 +132,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MEDIA_URL = '/images/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'), '/var/www/static/',
-)
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/Images')
+MEDIA_URL = '/img/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
