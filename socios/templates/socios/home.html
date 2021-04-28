@@ -53,7 +53,7 @@
 
 
 	<!-- Skin CSS -->
-	<link rel="stylesheet" href="css/skins/default.css">
+	<link rel="stylesheet" href="{% static 'css/skins/default.css' %}">
 	<script src="{% static 'master/style-switcher/style.switcher.localstorage.js' %}"></script>
 
 	<!-- Theme Custom CSS -->
@@ -328,7 +328,7 @@
 									data-bgrepeat="no-repeat" class="rev-slidebg">
 
 								<div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute"
-									data-videowidth="100%" data-videoheight="100%" data-videomp4="{% static 'video/sample.mp4' %}"
+									data-videowidth="100%" data-videoheight="100%" data-videomp4="video/sample.mp4}"
 									data-videopreload="preload" data-videoloop="loop" data-forceCover="1"
 									data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false"
 									data-nextslideatend="false">
@@ -762,7 +762,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="img/team/luis.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'img/team/luis.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Presidente</span>
 												<span class="thumb-info-type">Luis Manuel Pineda Santos</span>
@@ -930,7 +930,7 @@
 									<!-- <a href="ajax/portfolio-ajax-project.html" data-ajax-on-modal> -->
 									<span class="thumb-info thumb-info-lighten">
 										<span class="thumb-info-wrapper">
-											<img src="img/team/Sonia.jpg" class="img-fluid border-radius-0" alt="">
+											<img src="{% static 'img/team/Sonia.jpg' %}" class="img-fluid border-radius-0" alt="">
 											<span class="thumb-info-title">
 												<span class="thumb-info-inner">Consejera</span>
 												<span class="thumb-info-type">Sonia Palacios Loya</span>
