@@ -10,9 +10,39 @@ class TipoDePuesto(models.Model):
     date_modified = models.DateTimeField(auto_now_add=True, null=True)
     
 
-class Idioma(models.Model):
+class Categoria(models.Model):
     id = models.AutoField(primary_key=True)
     cnombre = models.CharField(max_length=30, null=True)
+    date_created = models.DateTimeField(auto_now_add=True, null=True)
+    date_modified = models.DateTimeField(auto_now_add=True, null=True)
+
+
+class Idioma(models.Model):
+    id = models.AutoField(primary_key=True)
+    INGLES = 'IN'
+    IDIOMAS_CHOICES = [
+        (INGLES, 'Ingles')
+    ]
+    chidioma = models.CharField(
+        max_length=2,
+        choices=IDIOMAS_CHOICES,
+        default=INGLES,
+    )
+    BASICO = 'BA'
+    INTERMEDIO = 'IN'
+    AVANZADO = 'AV'
+    FLUIDO = 'FL'
+    NIVEL_CHOICES = [
+        (BASICO, 'Basico'),
+        (INTERMEDIO, 'Intermedio'),
+        (AVANZADO, 'Avanzado'),
+        (FLUIDO, 'Fluido'),
+    ]
+    chnivel = models.CharField(
+        max_length=2,
+        choices=NIVEL_CHOICES,
+        default=BASICO,
+    )
     BASICO = 'BA'
     INTERMEDIO = 'IN'
     AVANZADO = 'AV'
@@ -39,6 +69,9 @@ class Posicion(models.Model):
     )
     iidioma = models.ForeignKey(
         Idioma, null=True, on_delete=models.CASCADE
+    )
+    icategoria = models.ForeignKey(
+        Categoria, null=True, on_delete=models.CASCADE
     )
     PRIMARIA = 'PR'
     SECUNDARIA = 'SC'
